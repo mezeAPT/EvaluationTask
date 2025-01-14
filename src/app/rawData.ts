@@ -1,0 +1,23 @@
+export const Dummy_Data = [
+    { ID: 1, Name: 'John Doe', Age: 25 },
+    { ID: 2, Name: 'Jane Smith', Age: 30 },
+    { ID: 3, Name: 'Sam Brown', Age: 28 },
+    { ID: 4, Name: 'Emily Davis', Age: 22 },
+    { ID: 5, Name: 'Chris Wilson', Age: 35 },
+    { ID: 6, Name: 'Laura Johnson', Age: 27 },
+    { ID: 7, Name: 'Mike Lee', Age: 31 },
+    { ID: 8, Name: 'Anna Taylor', Age: 24 },
+    { ID: 9, Name: 'David Harris', Age: 29 },
+    { ID: 10, Name: 'Sophia Brown', Age: 26 },
+    { ID: 11, Name: 'Ethan Moore', Age: 32 },
+    { ID: 12, Name: 'Olivia Wilson', Age: 23 },
+    { ID: 13, Name: 'Liam Miller', Age: 28 },
+    { ID: 14, Name: 'Isabella Garcia', Age: 21 },
+    { ID: 15, Name: 'Mason Martinez', Age: 34 },
+    { ID: 16, Name: 'Mia Rodriguez', Age: 29 },
+    { ID: 17, Name: 'Lucas Lopez', Age: 27 },
+    { ID: 18, Name: 'Amelia Perez', Age: 30 },
+    { ID: 19, Name: 'Aiden White', Age: 33 },
+    { ID: 20, Name: 'Emma Thompson', Age: 22 },
+  ];
+  

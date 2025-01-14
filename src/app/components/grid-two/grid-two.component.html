@@ -1,0 +1,16 @@
+<app-header/>
+<div style="text-align:center; margin-bottom: 20px;">
+    <h5>Infragistics {{title}} Functionality</h5>
+</div>
+
+<div style="text-align: center;">
+    <div class="grid__wrapper">
+        <div class="sample__header">
+            <igx-grid igxPreventDocumentScroll #grid1 [data]="data" width="600px" height="400px" style="margin: auto">
+                <igx-column  [sortable]="true" field="ID" header="ID"  dataType="number"></igx-column>
+                <igx-column  [sortable]="true" field="Name" header="Name"  dataType="string"></igx-column>
+                <igx-column  [sortable]="true" field="Age" header="Age"  dataType="number"></igx-column>
+            </igx-grid>
+        </div>
+    </div>
+</div> 

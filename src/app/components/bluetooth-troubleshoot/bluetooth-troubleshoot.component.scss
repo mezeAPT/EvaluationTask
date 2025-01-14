@@ -1,0 +1,33 @@
+.help-item {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.help-item .icon-wrapper {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 15px;
+  color: #fff;
+}
+.icon-blue {
+  background-color: #73bdf6;
+}
+.icon-cyan {
+  background-color: #50e3c2;
+}
+.icon-purple {
+  background-color: #a394ff;
+}
+.icon-orange {
+  background-color: #ffc107;
+}
+.help-item i {
+  color: #adb5bd;
+}

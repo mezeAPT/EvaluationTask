@@ -1,0 +1,30 @@
+.device-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .device-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    margin: auto;
+  }
+  .device-icon i {
+    font-size: 24px;
+    color: #007bff;
+  }
+  .footer-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+  }
+  .footer-nav .nav-item .nav-link {
+    font-size: 14px;
+  }
