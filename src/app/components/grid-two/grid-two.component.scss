@@ -49,3 +49,14 @@
         }
     }
 }
+
+.custom-tbl-max-width {
+    max-width: 80%;
+  }
+  
+  @media (max-width: 576px) {
+    .custom-tbl-max-width {
+      max-width: none; /* or any other value to remove the max-width on small screens */
+    }
+  }
+  

@@ -6,7 +6,7 @@
     <div style="text-align: center;">
         <div class="grid__wrapper">
             <div class="sample__header">
-                <igx-grid #grid1 [data]="data" [primaryKey]="'ID'"  width="600px" height="400px" style="margin: auto">
+                <igx-grid #grid1 [data]="data" [primaryKey]="'ID'" height="400px" class="m-auto custom-tbl-max-width">
                     <igx-column field="ID" header="ID"  dataType="number" [editable]="false"></igx-column>
                     <igx-column field="Name" header="Name"  dataType="string" [editable]="true"></igx-column>
                     <igx-column field="Age" header="Age"  dataType="number" [editable]="true"></igx-column>

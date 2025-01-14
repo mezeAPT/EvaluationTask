@@ -1,12 +1,13 @@
 <app-header/>
+<!-- app.component.html -->
 <div style="text-align:center; margin-bottom: 20px;">
     <h5>Infragistics {{title}} Functionality</h5>
     </div>
     <div style="text-align: center;">
         <div class="grid__wrapper">
             <div class="sample__header">
-                <igx-grid [data]="data" width="600px" height="400px" style="margin: auto" [allowFiltering]="true">
-                    <igx-column field="ID" header="ID"  dataType="number"></igx-column>
+                <igx-grid [data]="data"  height="400px" class="m-auto custom-tbl-max-width" [allowFiltering]="true">
+                    <igx-column field="ID" header="ID"  dataType="number" class=""></igx-column>
                     <igx-column field="Name" header="Name"  dataType="string"></igx-column>
                     <igx-column field="Age" header="Age"  dataType="number"></igx-column>
                 </igx-grid>

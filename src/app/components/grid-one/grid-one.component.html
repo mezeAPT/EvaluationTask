@@ -6,7 +6,7 @@
     <div style="text-align: center;">
         <div class="grid__wrapper">
             <div class="sample__header">
-                <igx-grid  #grid1 [data]="data" [autoGenerate]="true" (columnInit)="onColumnInit($event)" width="600px" height="400px" style="margin: auto">
+                <igx-grid  #grid1 [data]="data" [autoGenerate]="true" (columnInit)="onColumnInit($event)"  height="400px" class="m-auto custom-tbl-max-width">
                     <igx-paginator></igx-paginator>
                 </igx-grid>
             </div>
